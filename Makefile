@@ -4,7 +4,7 @@ prefix := /usr
 exec_prefix := $(prefix)
 bindir := $(exec_prefix)/bin
 
-LDLIBS := -lbar
+LDLIBS := -lbaz
 
 $(NAME): $(NAME).o
 

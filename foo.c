@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-#include <bar.h>
+#include <baz.h>
 
 int main(int argc, char **argv)
 {
-	printf("foo: BAR=%x\n", BAR);
-	return bar("FOO");
+	printf("foo: BAZ=%x\n", BAZ);
+	return baz("FOO");
 }
